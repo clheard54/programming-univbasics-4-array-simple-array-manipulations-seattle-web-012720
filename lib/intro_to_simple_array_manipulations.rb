@@ -38,5 +38,3 @@ def using_flatten(array)
   array.flatten 
 end
 
-example = [[1], ['a', 'b'], []]
-using_flatten(example)
