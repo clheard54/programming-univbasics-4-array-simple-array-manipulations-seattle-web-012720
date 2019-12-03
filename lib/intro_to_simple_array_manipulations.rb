@@ -22,8 +22,8 @@ def shift_with_args(array)
   array.shift(2)
 end
 
-def concat(array1, array2)
-  array1.concat(array2)
+def concat(arr1, arr2)
+  arr1.concat(arr2)
 end
 
 def using_insert(array, element)
@@ -37,3 +37,6 @@ end
 def using_flatten(array)
   array.flatten 
 end
+
+example = [[1], ['a', 'b'], []]
+using_flatten(example)
